@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.debug{
+  min-width: none;
+  padding: auto;
+  background-color: #02138B;
+}
+
+.container{
+  background-color: #D8A61E;
+  padding: 7px;
+  min-height: none;
+  min-width: none;
+  display: flex;
+  justify-content: space-between;
+  border: 2px dashed black;
+}
+
+.box{
+  align-items: center;
+  padding: 0 50px;
+  background-color: #D8A61E;
+  border: 2px dashed black;
+}
+
+header nav ul{
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li{
+  margin: 0 10px;
+  padding: 5px 10px;
+}
+
+header nav ul li a{
+  text-decoration: none;
+}
+
+.jumbotron{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 300px;
+  background-color: #EF82ED;
+  border: 2px dashed black;
+}
+
+.debug .jumbo{
+  margin: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+.row .main{
+  width: 500px;
+  height: 350px;
+  background-color: #2890FF;
+  border: 2px dashed black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.row .side{
+  width: 300px;
+  height: 350px;
+  background-color: #FAC0CA;
+  border: 2px dashed black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.grey{
+  background-color: #D3D3D3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div .reverse{
+  flex-direction: row-reverse;
+}
+
+div .debug .grey{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-box{
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 800px;
+  height: 500px;
+  background-color: #2A8B20;
+  border: 2px dashed black;
+}
+
+footer{
+  background-color: #23272A;
+}
+.container-black{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: none;
+  padding-top: 12px;
+  padding-bottom: 30px;
+}
+
+.big-column{
+  min-width: 300px;
+  height: 400px;
+  background-color: #F08180;
+  border: 2px dashed black;
+}
+
+.column{
+  min-width: 125px;
+  height: 400px;
+  background-color: #37B3AA;
+  border: 2px dashed white;
+}
+
+hr{
+  color: white;
+}
+
+.footercont{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  min-width: 800px;
+  max-width: 80%;
+  height: 50px;
+  background-color: aqua;
+}
+
+.box-fondo{
+  align-self: center;
+  padding: 0 10px;
+  background-color: #F08180;
+  border: 2px dashed black;
+}
